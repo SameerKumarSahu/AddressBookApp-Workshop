@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>Address Book Page</title>
+        <link rel="stylesheet" href="AddHomePage.css">
+        
+    </head>
+    <body>
+        <!--UC1 Creating header content with logo-->
+        <header class="header-content header">
+            <div class="logo-content">
+                <img src="Assert/book.jpg" width="70px" alt="">
+                <div>
+                    <span class="address-text">ADDRESS</span><br>
+                    <span class="address-text address-book">BOOK</span>
+                </div>
+            </div>
+        </header>
+
+        <!--UC2
+        * content header shows person details and add person button
+        * Add number of entry to indicate number of person in address book.-->
+        <div class="main-content">
+            <div class="header-content">
+                <div class="person-detail-text">
+                    Person Details <div class="person-count"></div>
+                </div>                
+                <a href="AddressBookForm.html" class="add-button">
+                    <img class="add-img" src="Assert/Add.png" width = "70px" alt="">Add Person</a>
+                    
+            </div>
+   <!--UC3
+            * view Person details in a tabulaer form-->
+            <div class = "table-main">
+                <table id = "table-display" class = "table"></table>
+            </div>
+            
+        </div>
+         <script src = "AddHome.js"></script>
+    </body>
+</html>
